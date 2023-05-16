@@ -1,82 +1,95 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 #parent-container {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
+
 .top-nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 60px;
-    background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background-color: #fff;
 }
 
 .logo {
-    width: 76px;
-    height: 20px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    color: #6070ff;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+  width: 76px;
+  height: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #6070ff;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .headline {
-    background: #fff url(images/Header-desktop.png) no-repeat;
-    background-size: 100% 90%;
-    padding: 10% 15%;
-    border-bottom-left-radius: 10%;
+  background: #fff url(images/Header-desktop.png) no-repeat;
+  background-size: 100% 90%;
+  padding: 10% 15%;
+  border-bottom-left-radius: 10%;
 }
 
 .headline h1 {
-    width: 920px;
-    height: 122px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 60px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.37px;
-    color: #091E42;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+  width: 920px;
+  height: 122px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.37px;
+  color: #091e42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.content {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8em;
+  line-height: 24px;
+  color: #344563;
 }
 
 .headline .content {
-    width: 920px;
-    height: 98px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
-    color: #344563;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+  width: 920px;
+  height: 98px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.connect {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.9em;
+  margin: 10px 0 0 0;
+  line-height: 24px;
+  color: #7f8cff;
 }
 
 .headline .connect {
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -91,15 +104,44 @@
 .headline ul li {
   margin-right: 2%;
   float: left;
-  color: #505F79;
+  color: #505f79;
   margin-bottom: 20%;
 }
+
+.categories ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 30px;
+  font-size: 1em;
+}
+
+.stack ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f7f7f9;
+  border-radius: 10px;
+  width: 90px;
+  height: 95px;
+}
+
+.card-body .social-media li {
+  margin-right: 5%;
+  font-size: 1.1em;
+  float: left;
+  color: #505f79;
+}
+
 .headline ul li:last-child {
-    margin-right: unset;
+  margin-right: unset;
 }
 
 .work {
-  background-color: #FFFFFF;
+  background-color: #fff;
   border-radius: 24px;
   display: flex;
   width: 80%;
@@ -119,129 +161,81 @@
   line-height: 44px;
   width: 65%;
   color: #172b4d;
-  }
+}
 
-  .counters span {
+.counters span {
   font-style: normal;
   font-weight: 600;
   font-size: 0.9em;
   line-height: 16px;
   color: #c1c7d0;
   padding: 0 10px 0 0;
-  }
+}
 
-  .counters span:first-of-type {
-    color: #344563;
-  }
+.counters span:first-of-type {
+  color: #344563;
+}
 
-  .img {
-    margin-right: 10px
-  }
+.img {
+  margin-right: 10px;
+}
 
-  .top {
-    margin-top: 4%;
-  }
- 
-  .p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1em;
-    line-height: 24px;
-    color: #344563;
-  }
+.top {
+  margin-top: 4%;
+}
 
-  .badges {
-    color: #6070ff;
-  }
+.p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 24px;
+  color: #344563;
+}
 
-  .card-body {
-    display: flex;
-    flex-direction: column;
-  }
+.badges {
+  color: #6070ff;
+}
 
-  .about-myself {
-    background-color: #FFFFFF;
-    border-top-right-radius: 110px;
-    border: 2px solid99;
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
 
-  }
+.about-myself {
+  background-color: #fff;
+  border-top-right-radius: 110px;
+  border: 2px solid99;
+}
 
-  .myself {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.5em;
-    line-height: 52px;
-    display: flex;
-    align-items: center;
-    color: #172b4d;
-  }
+.myself {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5em;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
 
-  .content {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 0.8em;
-    line-height: 24px;
-    color: #344563;
-  }
+.social-media ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
-  .connect {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 0.9em;
-    margin: 10px 0 0 0;
-    line-height: 24px;
-    color: #7f8cff;
-  }
+.stack ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
 
-  .social-media ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
+.categories p {
+  padding: 10px 0;
+}
 
-  .card-body .social-media li {
-    margin-right: 5%;
-    font-size: 1.1em;
-    float: left;
-    color:#505F79;
-  }
-
-  .stack ul {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    list-style: none;
-    padding: 0;
-    margin: 15px 0;
-  }
-
-  .stack ul li {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #f7f7f9;
-    border-radius: 10px;
-    width: 90px;
-    height: 95px;
-  }
-
-  .stack ul li p {
-    font-size: 0.7em;
-  }
-
-  .categories ul li {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 30px;
-    font-size: 1em;
-  }
-
-  .categories p {
-    padding: 10px 0;
-  }
+.stack ul li p {
+  font-size: 0.7em;
+}
