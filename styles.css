@@ -15,6 +15,10 @@
   border-bottom-left-radius: 10%;
 }
 
+.headline .container {
+  background-image: url(images/Header-desktop.png);
+}
+
 .headline h1 {
   width: 920px;
   height: 122px;
@@ -215,4 +219,25 @@
 
 .stack ul li p {
   font-size: 0.7em;
+}
+
+.contact {
+  background-color: #6070ff;
+  border-top-left-radius: 110px;
+}
+
+.contact .container {
+  background-image: url(images/contact-form-desktop.png);
+  background-size: cover;
+  height: 100vh;
+}
+
+.contact .container h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.contact .container p {
+  font-weight: 400;
+  font-size: 18px;
 }
