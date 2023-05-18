@@ -120,6 +120,14 @@ You can deploy this project using: GitHub Pages,
 - Twitter: [@twitterhandle](https://twitter.com/@binyam_tegene)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/binyam-tegene-4b77ab265)
 
+👤 **Author2**
+👤Ismail Halliru Muhammad
+
+- GitHub: [@githubhandle](https://github.com/ismailhallirumuhammad)
+- Twitter: [@twitterhandle](https://mobile.twitter.com/IsmailhalliruM1)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/mwlite/in/ismail-halliru-muhammad-2a8453127)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
